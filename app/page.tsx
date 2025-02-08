@@ -1,8 +1,8 @@
 import AcmeLogo from "@/app/ui/acme-logo";
-import { ArrowRightIcon } from "@heroicons/react/24/outline";
-import Link from "next/link";
 import { lusitana } from "@/app/ui/fonts";
+import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -19,7 +19,6 @@ export default function Page() {
             </a>
             , brought to you by Vercel.
           </p>
-          <p className={`${lusitana.className}`}>Test</p>
           <div className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black" />
           <Link
             href="/login"
